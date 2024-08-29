@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagination</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="pagination">
+      <button onclick="prevBtn()">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <ul>
+        <li class="links active" value="1">1</li>
+        <li class="links" value="2">2</li>
+        <li class="links" value="3">3</li>
+        <li class="links" value="4">4</li>
+        <li class="links" value="5">5</li>
+      </ul>
+      <button onclick="nextBtn()">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/ee0cb28b13.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
